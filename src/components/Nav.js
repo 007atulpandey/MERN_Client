@@ -12,6 +12,7 @@ function Nav() {
        "font-family": "'Great Vibes', cursive",
         "font-weight":"bold"
       }}   >MyShareApp</Link>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" className=" right hide-on-med-and-down">
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/signup">Signup</Link></li>
