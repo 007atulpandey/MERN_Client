@@ -8,7 +8,7 @@ const Signup =()=>{
     const [password,setpass] = useState('')
     const [email,setmail] = useState('')
     const postData= ()=>{
-        axios.post("http://localhost:5000/signup",
+        axios.post("https://4a342b68.ngrok.io/signup",
         {
             headers:{
                 "Content-type":"application/json"
