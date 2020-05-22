@@ -14,9 +14,9 @@ const Signup =()=>{
                 "Content-type":"application/json"
             },
             data:{
-                name:"Atul",
-                password:"Atul",
-                email:"Atul@gmail.com"
+                name:name,
+                password:password,
+                email:email
             }
         })
         .then(data=>{
