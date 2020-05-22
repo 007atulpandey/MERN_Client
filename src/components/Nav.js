@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function Nav() {
   
   return (
-  
+    <div>
     <nav>
     <div className="nav-change nav-wrapper ">
       <Link to="/" className=" brand-logo"
@@ -20,6 +20,14 @@ function Nav() {
       </ul>
     </div>
   </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/signup">Signup</Link></li>
+        <li><Link to="/profile">Profile</Link></li>
+        <li><Link to="/createpost">CreatePost</Link></li>
+  </ul>
+    
+    </div>
   );
 }
 
