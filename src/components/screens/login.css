@@ -1,0 +1,33 @@
+.mycard{
+  
+margin-top:4rem;
+}
+.auth-card{
+    padding :20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border-width: 10px;
+    box-shadow: 10px;
+    border-bottom-color: rgb(238, 16, 53);
+
+}
+button {
+    margin-top:2rem;
+    background: rgb(19, 19, 124) !important;
+    
+}
+.input-field input[type=text]{
+    color:blue !important;
+    font-family: cursive;
+    border-bottom: 1px solid rgb(0, 131, 55) !important;
+   
+   }
+.input-field input[type=text]:focus{
+    color:blue !important;
+    font-family: cursive;
+    border-bottom: 1px solid rgb(155, 0, 83) !important;
+    box-shadow: 0 1px 0 0 rgb(155, 0, 83)!important;
+}
+
